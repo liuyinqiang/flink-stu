@@ -25,11 +25,16 @@
             <artifactId>flink-clients_2.11</artifactId>
             <version>1.9.3</version>
         </dependency>
+        <!--
+         flink-connector-kafka-0.10_2.11
+         flink-connector-kafka-0.11_2.11
+         -->
         <dependency>
             <groupId>org.apache.flink</groupId>
-            <artifactId>flink-connector-kafka-0.10_2.11</artifactId>
+            <artifactId>flink-connector-kafka_2.11</artifactId>
             <version>1.9.3</version>
         </dependency>
+
 
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-common -->
         <dependency>
